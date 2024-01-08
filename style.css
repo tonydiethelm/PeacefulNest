@@ -1,20 +1,48 @@
-body {background-color: green;}
-
-nav {
-    display:inline;
+body {
+    background-color: white;
 }
 
 
+/* for troubleshooting layout purposes only, comment out*/
+/*
+* {
+    
+    border-style: dotted;
+    border-color: red;
+}
+*/
+
+header {
+    border-bottom: 5px solid green;
+    display: flex;
+}
+
+header * {
+    display: inline;
+}
+
+
+header img {
+    width: 10%;
+    float: left;
+    margin-right: 50%;
+}
+
+
+
+
+/*
 article {
-    border-radius: 15px;
     padding: 10px;
     margin: 20px;
-    /*border: 1px solid black;*/
+    display: block;
+
 }
+*/
 
 section {
     /* We want Picture next to Text*/
-    display: inline;
+    display: inline-block;
     background-color: white;
     padding: 10px;
     margin: 40px;
@@ -28,8 +56,10 @@ section {
 }
 
 img {
-    width: 30%;
+    width: 25%;
     border-radius: 50%;
+    float: left;
+    margin-right: 5%;
 }
 
 aside{

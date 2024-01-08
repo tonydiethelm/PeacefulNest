@@ -1,0 +1,37 @@
+body {background-color: green;}
+
+nav {
+    display:inline;
+}
+
+
+article {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    /*border: 1px solid black;*/
+}
+
+section {
+    /* We want Picture next to Text*/
+    display: inline;
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+    border-bottom: 5px solid green;
+}
+
+.text {
+    display: block;
+    color: purple;
+    font-family: Georgia, serif;
+}
+
+img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+aside{
+    display: inline;
+}

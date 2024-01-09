@@ -4,17 +4,18 @@ body {
 
 
 /* for troubleshooting layout purposes only, comment out*/
-/*
+
 * {
     
     border-style: dotted;
     border-color: red;
 }
-*/
+
 
 header {
-    border-bottom: 5px solid green;
+    border-bottom: thick solid #567356;
     display: flex;
+    flex-direction: row;
 }
 
 header * {
@@ -24,29 +25,29 @@ header * {
 
 header img {
     width: 10%;
-    float: left;
-    margin-right: 50%;
+    -ms-flex-align: left;
+}
+
+header H1 {
+    width: 40%;
+    -ms-flex-align: center;
+}
+
+header nav {
+    width: 30%;
+    -ms-flex-align: right;
 }
 
 
-
-
-/*
-article {
-    padding: 10px;
-    margin: 20px;
-    display: block;
-
-}
-*/
 
 section {
     /* We want Picture next to Text*/
     display: inline-block;
     background-color: white;
-    padding: 10px;
-    margin: 40px;
-    border-bottom: 5px solid green;
+    padding: 1%;
+    margin: 5%;
+    border-bottom: thick solid #567356;
+    font-size: 1.5em;
 }
 
 .text {
@@ -55,11 +56,11 @@ section {
     font-family: Georgia, serif;
 }
 
-img {
+section img {
     width: 25%;
-    border-radius: 50%;
     float: left;
     margin-right: 5%;
+    border-radius: 50%;
 }
 
 aside{

@@ -4,18 +4,20 @@ body {
 
 
 /* for troubleshooting layout purposes only, comment out*/
-
+/*
 * {
     
     border-style: dotted;
     border-color: red;
-}
+}*/
 
 
 header {
     border-bottom: thick solid #567356;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 header * {
@@ -24,18 +26,16 @@ header * {
 
 
 header img {
-    width: 10%;
-    -ms-flex-align: left;
+    width: 20%;
 }
 
 header H1 {
-    width: 40%;
-    -ms-flex-align: center;
+    width: 50%;
+    text-align: center;
 }
 
 header nav {
     width: 30%;
-    -ms-flex-align: right;
 }
 
 

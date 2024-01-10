@@ -26,7 +26,7 @@ header * {
 
 
 header img {
-    width: 20%;
+    width: 15%;
 }
 
 header H1 {
@@ -68,6 +68,7 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 5%;
   }
 
   a:hover, a:active {

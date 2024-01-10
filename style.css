@@ -50,12 +50,6 @@ section {
     font-size: 1.5em;
 }
 
-.text {
-    display: block;
-    color: purple;
-    font-family: Georgia, serif;
-}
-
 section img {
     width: 25%;
     float: left;
@@ -66,3 +60,16 @@ section img {
 aside{
     display: inline;
 }
+
+a:link, a:visited {
+    background-color: lightcoral;
+    color: grey;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: red;
+  }

@@ -1,3 +1,10 @@
+/*
+Purple of Aline's shirt. #393B61
+Green of background plan. #4E6A2D 
+*/
+
+
+
 body {
     background-color: white;
 }
@@ -9,11 +16,12 @@ body {
     
     border-style: dotted;
     border-color: red;
-}*/
+}
+*/
 
 
 header {
-    border-bottom: thick solid #567356;
+    border-bottom: thick solid #4E6A2D;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,7 +43,8 @@ header H1 {
 }
 
 header nav {
-    width: 30%;
+    width: 35%;
+    text-align: center;
 }
 
 
@@ -46,23 +55,43 @@ section {
     background-color: white;
     padding: 1%;
     margin: 5%;
-    border-bottom: thick solid #567356;
     font-size: 1.5em;
 }
 
-section img {
+.topLine {
+    border-top: thick solid #4E6A2D;
+}
+
+section .left{
     width: 25%;
     float: left;
     margin-right: 5%;
     border-radius: 50%;
 }
 
+section .right{
+    width: 25%;
+    float: right;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
 aside{
-    display: inline;
+    display: block;
+    float: right;
+    width: 33%;
+}
+
+aside div{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+
 }
 
 a:link, a:visited {
-    background-color: lightcoral;
+    background-color: #393B61;
     color: grey;
     padding: 14px 25px;
     text-align: center;
@@ -72,5 +101,5 @@ a:link, a:visited {
   }
 
   a:hover, a:active {
-    background-color: red;
+    background-color: #393B61;
   }

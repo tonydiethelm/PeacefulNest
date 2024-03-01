@@ -3,13 +3,6 @@ Purple of Aline's shirt. #393B61
 Green of background plan. #4E6A2D 
 */
 
-
-
-body {
-    background-color: white;
-}
-
-
 /* for troubleshooting layout purposes only, comment out*/
 /*
 * {
@@ -19,6 +12,12 @@ body {
 }
 */
 
+body {
+    background-color: white;
+}
+
+
+/*Header Stuff*/
 
 header {
     border-bottom: thick solid #4E6A2D;
@@ -47,7 +46,22 @@ header nav {
     text-align: center;
 }
 
+/*link styling in header*/
+header nav a:link, a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
 
+header nav a:hover, a:active {
+    background-color: #393B61;
+  }
+
+
+
+/*Content Stuff*/
 
 section {
     /* We want Picture next to Text*/
@@ -58,24 +72,29 @@ section {
     font-size: 1.5em;
 }
 
+
 .topLine {
     border-top: thick solid #4E6A2D;
 }
 
-section .left{
+
+/*Images in the sections*/
+section img{
     width: 25%;
-    float: left;
     margin-right: 5%;
     border-radius: 50%;
 }
 
+/*Images are either on the right or the left of text, class to support*/
 section .right{
-    width: 25%;
     float: right;
-    margin-right: 5%;
-    border-radius: 50%;
 }
 
+section .left{
+    float: left;
+}
+
+/*Aside stylings*/
 aside{
     display: block;
     float: right;
@@ -90,16 +109,18 @@ aside div{
 
 }
 
-a:link, a:visited {
+/*Link styling throughout content*/
+
+section a:link, a:visited {
     background-color: #393B61;
-    color: grey;
+    color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 15px;
   }
 
-  a:hover, a:active {
+section a:hover, a:active {
     background-color: #393B61;
   }

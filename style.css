@@ -29,21 +29,20 @@ header {
 
 header * {
     display: inline;
+    text-align: center;
 }
 
 
 header img {
-    width: 15%;
+    width: 20%;
 }
 
 header H1 {
-    width: 50%;
-    text-align: center;
+    width: 30%;
 }
 
 header nav {
-    width: 35%;
-    text-align: center;
+    width: 50%;
 }
 
 /*link styling in header*/
@@ -59,6 +58,25 @@ header nav a:hover, a:active {
     background-color: #393B61;
   }
 
+/* Hide the link that should open and close the topnav on small screens */
+header nav #icon {
+    display: none;
+  }
+
+/* Small screen, hide the nav links but show the hamburger icon*/
+  @media screen and (max-width: 600px) {
+    header nav li a {
+        display: none !important;
+    }
+    
+    header nav #icon{
+      float: right;
+      display: block;
+      font-size: 3em;
+    }
+  }
+
+
 
 
 /*Content Stuff*/
@@ -66,10 +84,9 @@ header nav a:hover, a:active {
 section {
     /* We want Picture next to Text*/
     display: inline-block;
-    background-color: white;
     padding: 1%;
     margin: 5%;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 
@@ -111,7 +128,7 @@ aside div{
 
 /*Link styling throughout content*/
 
-section a:link, a:visited {
+section a:link, section a:visited {
     background-color: #393B61;
     color: black;
     padding: 14px 25px;
@@ -121,6 +138,6 @@ section a:link, a:visited {
     border-radius: 15px;
   }
 
-section a:hover, a:active {
+section a:hover, section a:active {
     background-color: #393B61;
   }

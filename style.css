@@ -4,13 +4,13 @@ Green of background plan. #4E6A2D
 */
 
 /* for troubleshooting layout purposes only, comment out*/
-/*
+
 * {
     
     border-style: dotted;
     border-color: red;
 }
-*/
+
 
 body {
     background-color: white;
@@ -64,16 +64,26 @@ header nav #icon {
   }
 
 /* Small screen, hide the nav links but show the hamburger icon*/
+/* And show the links if the visibility is toggled*/
   @media screen and (max-width: 600px) {
-    header nav li a {
+    /*header nav li a {
         display: none !important;
+    }*/
+    header nav ul {
+        visibility: hidden;
     }
-    
+
     header nav #icon{
-      float: right;
-      display: block;
-      font-size: 3em;
+        visibility: visible;
+        display: block;
+        font-size: 3em;
     }
+
+    header nav .visible {
+        visibility: visible;
+        display: block;
+    }
+
   }
 
 

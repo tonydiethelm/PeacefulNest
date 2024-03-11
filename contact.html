@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 
@@ -11,11 +13,14 @@
         <img src="nest.png" alt="Peaceful Nest Doulas logo, a line drawing of a nest with three eggs in it">
         <H1>Peaceful Nest Postpartum Care</H1>
         <nav>
-            <ul>
+            <ul class="notvisible" id="toggleThis">
+                <li><a href="javascript:void(0);" id="icon" onclick="toggleLinkVisibility()">
+                    <i class="fa fa-bars"></i></a></li>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./services.html">Services</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
+                
             </ul>
         </nav> 
     </header>
@@ -38,6 +43,17 @@
                 <p><a href="tel:5037346605">Call</a> at 503-734-6605.</p>
             </section>
     </main>
+
+    <script>
+        function toggleLinkVisibility() {
+          var x = document.getElementById("toggleThis");
+          if (x.className === "visible") {
+            x.className = " notVisible";
+          } else {
+            x.className = "visible";
+          }
+        }
+    </script>
 </body>
 
 

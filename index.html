@@ -12,7 +12,7 @@
         <img src="nest.png" alt="Peaceful Nest Doulas logo, a line drawing of a nest with three eggs in it">
         <H1>Peaceful Nest Postpartum Care</H1>
         <nav>
-            <ul class="visible">
+            <ul class="notvisible" id="toggleThis">
                 <li><a href="javascript:void(0);" id="icon" onclick="toggleLinkVisibility()">
                     <i class="fa fa-bars"></i></a></li>
                 <li><a href="./index.html">Home</a></li>
@@ -68,6 +68,21 @@
 
             <p>Peaceful Nest, LLC</p>
     </main>
+
+    <script>
+        function toggleLinkVisibility() {
+          var x = document.getElementById("toggleThis");
+          if (x.className === "visible") {
+            x.className = " notVisible";
+          } else {
+            x.className = "visible";
+          }
+        }
+        </script>
+
+
+
+
 </body>
 
 

@@ -13,13 +13,15 @@ Green of background plan. #4E6A2D
 
 body {
     background-color: white;
+    font-family: 'comfortaa', sans-serif;
+    line-height: 1.5;
 }
 
 
 /*Header Stuff*/
 
 header {
-    border-bottom: thick solid #4E6A2D;
+    /*border-bottom: thick solid #4E6A2D;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -38,10 +40,12 @@ header img {
 
 header H1 {
     width: 30%;
+
 }
 
 header nav {
     width: 50%;
+    font-size: larger;
 }
 
 /*link styling in header*/
@@ -54,7 +58,8 @@ header nav a:link, a:visited {
   }
 
 header nav a:hover, a:active {
-    background-color: #393B61;
+    background-color: #a0d457;
+    border-radius: 15px;
   }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -95,14 +100,10 @@ section {
     /* We want Picture next to Text*/
     display: inline-block;
     padding: 1%;
-    margin: 5%;
+    margin: 5% 20% 0% 20%;
     font-size: 1em;
 }
 
-
-.topLine {
-    border-top: thick solid #4E6A2D;
-}
 
 
 /*Images in the sections*/
@@ -133,13 +134,14 @@ aside div{
     border-style: solid;
     border-color: black;
     margin: 10px;
+    padding: 10px;
 
 }
 
 /*Link styling throughout content*/
 
 section a:link, section a:visited {
-    background-color: #393B61;
+    background-color: #a0d457;
     color: black;
     padding: 14px 25px;
     text-align: center;
@@ -149,5 +151,5 @@ section a:link, section a:visited {
   }
 
 section a:hover, section a:active {
-    background-color: #393B61;
+    background-color: #a0d457;
   }

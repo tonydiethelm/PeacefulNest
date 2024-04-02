@@ -15,7 +15,7 @@
     /* Style the navigation menu */
     .topnav {
         overflow: hidden;
-        background-color: #333;
+        background-color: white;
         position: relative;
     }
 
@@ -26,7 +26,7 @@
 
     /* Style navigation menu links */
     .topnav a {
-        color: white;
+        color: black;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
@@ -35,7 +35,7 @@
 
     /* Style the hamburger menu */
     .topnav a.icon {
-        background: black;
+        background: white;
         display: block;
         position: absolute;
         right: 0;
@@ -44,14 +44,12 @@
 
     /* Add a grey background color on mouse-over */
     .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+        background-color: grey;
     }
 
     /* Style the active link (or home/logo) */
     .active {
         background-color: grey;
-        color: white;
     }
 
 </style>

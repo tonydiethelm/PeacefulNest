@@ -2,13 +2,15 @@
 
 <script>
     import Navigationmenu from '../lib/Navigationmenu.svelte';
-    import Bottombar from '../lib/Bottombar.svelte';
-    import Head from '../lib/head.svelte';
+    import Llcfooter from '../lib/Llcfooter.svelte';
+    import ContactAline from '../lib/ContactAline.svelte';
+    import WholeSiteCSS from '../lib/WholeSiteCSS.svelte';
 </script>
 
 <div class="layout">
-    <Head />
+    <WholeSiteCss />
     <Navigationmenu />
     <slot />
-    <Bottombar />
+    <ContactAline />
+    <Llcfooter />
 </div>

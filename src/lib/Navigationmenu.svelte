@@ -21,8 +21,13 @@
         position: relative;
     }
 
-    .topnav img {
-        height: 15px;
+    #picandtext {
+        display: inline-flex;
+        font-size: 25px;
+    }
+
+    #picandtext img {
+        height: 100px;
     }
 
     /* Hide the links inside the navigation menu (except for logo/home) */
@@ -46,6 +51,7 @@
         position: absolute;
         right: 0;
         top: 0;
+        font-size: xx-large;
     }
 
     /* Add a green background color on mouse-over */
@@ -67,9 +73,10 @@
 
 
 <div class="topnav">
-    <div>
-        <p>Peaceful Nest Postpartum Care</p>
+    <div id=picandtext>
         <img src={nest} alt="Logo of Peaceful Nest, a nest with three eggs in it.">
+        <p>Peaceful Nest Postpartum Care</p>
+        
 
     </div>
     

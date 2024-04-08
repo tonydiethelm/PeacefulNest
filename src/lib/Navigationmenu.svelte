@@ -9,6 +9,8 @@
         }
     } 
 
+    import nest from './assets/nest.png';
+    
 </script>
 
 <style>
@@ -17,6 +19,10 @@
         overflow: hidden;
         background-color: white;
         position: relative;
+    }
+
+    .topnav img {
+        height: 15px;
     }
 
     /* Hide the links inside the navigation menu (except for logo/home) */
@@ -31,26 +37,28 @@
         text-decoration: none;
         font-size: 17px;
         display: block;
+        text-align: right;
     }
 
     /* Style the hamburger menu */
     .topnav a.icon {
         background: white;
-        display: block;
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    /* Add a grey background color on mouse-over */
+    /* Add a green background color on mouse-over */
     .topnav a:hover {
-        background-color: grey;
+        background-color: #a0d457;
     }
 
     /* Style the active link (or home/logo) */
+    /*
     .active {
-        background-color: grey;
+        background-color: #a0d457;
     }
+    */
 
 </style>
 
@@ -59,7 +67,18 @@
 
 
 <div class="topnav">
-    <a href="/" class="active">Peaceful Nest</a>
+    <div>
+        <p>Peaceful Nest Postpartum Care</p>
+        <img src={nest} alt="Logo of Peaceful Nest, a nest with three eggs in it.">
+
+    </div>
+    
+    <!--
+    <a href="/" class="active"></a>
+        Peaceful Nest Postpartum Care
+
+    </a>
+    -->
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
       <a href="/">Home</a>

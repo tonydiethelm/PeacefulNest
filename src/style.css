@@ -1,0 +1,62 @@
+
+
+/* for troubleshooting layout purposes only, comment out*/
+/*
+* {
+    border-style: dotted;
+    border-color: red;
+}
+*/
+
+body {
+    background-color: white;
+    font-family: 'comfortaa', sans-serif;
+    line-height: 1.5;
+}
+
+
+
+/*Content Stuff*/
+
+section {
+    /* We want Picture next to Text*/
+    display: inline-block;
+    padding: 1%;
+    margin: 5% 20% 0% 20%;
+    font-size: 1em;
+}
+
+
+
+/*Images in the sections*/
+section img{
+    width: 25%;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
+/*Images are either on the right or the left of text, class to support*/
+section .right{
+    float: right;
+}
+
+section .left{
+    float: left;
+}
+
+/*Aside stylings*/
+aside{
+    display: block;
+    float: right;
+    width: 33%;
+}
+
+aside div{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+
+}
+

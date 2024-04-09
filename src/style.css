@@ -22,26 +22,35 @@ section {
     /* We want Picture next to Text*/
     display: inline-block;
     padding: 1%;
-    margin: 5% 20% 0% 20%;
+    margin: 5% 15% 0% 15%;
     font-size: 1em;
 }
 
 
+section img {
+    width: 100%;
+}
 
 /*Images in the sections*/
-section img{
-    width: 25%;
-    margin-right: 5%;
+.piccontainer{
+    width: 50%;
+    margin: 0% 5%;
+}
+
+.circle {
     border-radius: 50%;
 }
 
-/*Images are either on the right or the left of text, class to support*/
-section .right{
-    float: right;
+.rounded {
+    border-radius: 5%;
 }
 
-section .left{
-    float: left;
+
+/*We want pictures next to text in the sections.
+Put pics and crdits in one div, content in another.
+Switch Left and Right by order in the page. */
+section{
+    display: inline-flex;
 }
 
 /*Aside stylings*/

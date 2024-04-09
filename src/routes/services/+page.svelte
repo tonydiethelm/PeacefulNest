@@ -4,10 +4,17 @@
 
 <main>
     <section>
-        <img class="right" src={nursing} alt="Picture of a nursing baby.">
-        <p>I support families during the first 12 weeks after welcoming a new baby, 
-            so that family members can experience more joy, more confidence, and 
-            more peace</p>
+        <div class="piccontainer">
+            <img class="rounded" src={nursing} alt="Picture of a nursing baby.">
+            <p>Image by <a href="https://www.lemandjune.com/">The Lem & June Collections</a>.</p>
+        </div>
+        
+        <div>
+            <p>I support families during the first 12 weeks after welcoming a new baby, 
+                so that family members can experience more joy, more confidence, and 
+                more peace
+            </p>
+        </div>
     </section>
 
     <section>
@@ -15,6 +22,7 @@
             <div><p>Postpartum Support $35/hr</p>
                 <p>(16 hrs min.)</p>
             </div>
+            
             <div>
                 <p>Ways to Pay for Postpartum Doula Care</p>
                 <ul>
@@ -34,23 +42,23 @@
                 </p>
             </div>
         </aside>
-        <p>As a postpartum doula I can...</p> 
-        <ul>
-            <li>provide non-medical, physical, emotional, educational and family support 
-                after the birth of your baby</li>
-            <li>assist you with self-care recovery measures</li>
-            <li>provide information and education about baby care</li>
-            <li>assist you in caring for and feeding your new baby</li>
-            <li>offer basic lactation support</li>
-            <li>assist your family with adjusting to new roles</li>
-            <li>pick up items from the pharmacy or store</li>
-            <li>offer household support such as preparing occasional light meals, 
-                sweeping, grocery shopping, laundry, tidying and dish-washing so you can nap, 
-                shower, or attend to other self-care tasks</li>
-            <li>give foot rubs  :)</li>
-            <li>prepare a hot pack or draw a bath</li>
-        </ul> 
-
-        
+        <div>
+            <p>As a postpartum doula I can...</p> 
+            <ul>
+                <li>provide non-medical, physical, emotional, educational and family support 
+                    after the birth of your baby</li>
+                <li>assist you with self-care recovery measures</li>
+                <li>provide information and education about baby care</li>
+                <li>assist you in caring for and feeding your new baby</li>
+                <li>offer basic lactation support</li>
+                <li>assist your family with adjusting to new roles</li>
+                <li>pick up items from the pharmacy or store</li>
+                <li>offer household support such as preparing occasional light meals, 
+                    sweeping, grocery shopping, laundry, tidying and dish-washing so you can nap, 
+                    shower, or attend to other self-care tasks</li>
+                <li>give foot rubs  :)</li>
+                <li>prepare a hot pack or draw a bath</li>
+            </ul>
+        </div>
     </section>
 </main>

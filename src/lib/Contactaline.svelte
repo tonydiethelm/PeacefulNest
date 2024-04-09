@@ -17,6 +17,7 @@ a:hover, a:active {
     background-color: #a0d457;
   }
 
+
 </style>
 
 <script>
@@ -24,8 +25,12 @@ a:hover, a:active {
 </script>
 
 <section>
-    <img class="right" src={nest} alt="Logo of Peaceful Nest, a nest with three eggs in it.">
+  <div class="piccontainer">  
+    <img src={nest} alt="Logo of Peaceful Nest, a nest with three eggs in it.">
+  </div>
+  <div>
     <p>Please feel free to reach out with any questions.</p>
     <p><a href=mailto:“aline@peacefulnestpdx.com”>Email</a> aline@peacefulnestpdx.com</p>
     <p><a href="tel:5037346605">Call</a> 503-734-6605</p>
+  </div>
 </section>

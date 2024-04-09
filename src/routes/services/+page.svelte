@@ -61,4 +61,18 @@
             </ul>
         </div>
     </section>
+
+    <section>
+        <div>
+            <q>It was so helpful to have your support and presence! I didn’t anticipate how much 
+                I’d look forward to your visits each week. I found it so helpful to have you work 
+                with our family and was impressed with how you integrated so quickly. You showed 
+                the perfect balance of asking what we needed and taking initiative - the 
+                postpartum period is hard enough and knowing you’d rummage in the fridge, deal 
+                with the dirty laundry, and not blink at me in tears was just what I needed! 
+                Thank you!
+            </q>
+            <p>-Rita V. 2024</p>
+        </div> 
+    </section>
 </main>

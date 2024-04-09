@@ -38,4 +38,19 @@
             religion, or physical or mental disability. Peaceful Nest doulas are always 
             striving to help create a more equitable world.</p>
     </section>
+
+    <section>
+        <div>
+            <q>A postpartum doula was, we thought, out of the realm of possibility for us. 
+                We are so grateful to Aline for making it a reality. Their help and support in 
+                those early days meant showers, naps, and hot meals for both parents. Well timed 
+                reminders of self-care were both needed and appreciated. Aline’s respect for our 
+                family’s values and decisions made me a more confident parent. Thank you! 
+                Thank you!
+            </q>
+            <p>-Hannah F. 2023</p>
+        </div> 
+    </section>
+
+
 </main>

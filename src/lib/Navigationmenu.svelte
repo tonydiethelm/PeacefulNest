@@ -1,7 +1,7 @@
 <script>
     /* hide/show the navbar menu links when user clicks the menu icon*/
     function toggleMenuLinkVisibility() {
-        var x = document.getElementById("myLinks");
+        var x = document.getElementById("myLinksDiv");
         if (x.style.display === "block") {
             x.style.display = "none";
         } else {
@@ -15,28 +15,28 @@
 
 <style>
     /* Style the navigation menu */
-    .topnav {
+    .topNavDiv {
         overflow: hidden;
         background-color: white;
         position: relative;
     }
 
-    #picandtext {
+    #picAndTextDiv {
         display: inline-flex;
         font-size: 25px;
     }
 
-    #picandtext img {
+    #picAndTextDiv img {
         height: 100px;
     }
 
     /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav #myLinks {
+    #myLinksDiv {
         display: none;
     }
 
     /* Style navigation menu links */
-    .topnav a {
+    .topNavDiv a {
         color: black;
         padding: 14px 16px;
         text-decoration: none;
@@ -55,7 +55,7 @@
     }
 
     /* Add a green background color on mouse-over */
-    .topnav a:hover {
+    .topNavDiv a:hover {
         background-color: #a0d457;
     }
 
@@ -66,31 +66,19 @@
             display: none;
         }
         /* show the links*/
-        .topnav #myLinks {
-            display: inline;
+        .topNavDiv #myLinksDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .topnav a {
-            color: black;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
+        .topNavDiv a {
+            
             display: inline;
-            text-align: center;
-    }
+
+        }
 
     }
-
-
-
-
-
     
-    /* Style the active link (or home/logo) */
-    /*
-    .active {
-        background-color: #a0d457;
-    }
-    */
 
 </style>
 
@@ -98,8 +86,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<div class="topnav">
-    <div id=picandtext>
+<div class="topNavDiv">
+    <div id=picAndTextDiv>
         <img src={nest} alt="Logo of Peaceful Nest, a nest with three eggs in it.">
         <p>Peaceful Nest Postpartum Care</p>
         
@@ -113,7 +101,7 @@
     </a>
     -->
     <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
+    <div id="myLinksDiv">
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="/services">Services</a>

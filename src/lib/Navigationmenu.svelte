@@ -46,7 +46,7 @@
     }
 
     /* Style the hamburger menu */
-    .topnav a.icon {
+    #icon {
         background: white;
         position: absolute;
         right: 0;
@@ -59,6 +59,32 @@
         background-color: #a0d457;
     }
 
+    /* If the screen is big...*/
+    @media screen and (min-width: 1000px) {
+        /* hide the hamburger*/
+        #icon{
+            display: none;
+        }
+        /* show the links*/
+        .topnav #myLinks {
+            display: inline;
+        }
+        .topnav a {
+            color: black;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: inline;
+            text-align: center;
+    }
+
+    }
+
+
+
+
+
+    
     /* Style the active link (or home/logo) */
     /*
     .active {
@@ -94,7 +120,7 @@
       <a href="/contact">Contact</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a class="icon" on:click={toggleMenuLinkVisibility}>
+    <a id="icon" on:click={toggleMenuLinkVisibility}>
       <i class="fa fa-bars"></i>
     </a>
   </div>

@@ -18,23 +18,27 @@ body {
 
 /*Content Stuff*/
 
-section {
-    /* We want Picture next to Text*/
-    display: inline-block;
-    padding: 1%;
-    margin: 5% 15% 0% 15%;
-    font-size: 1em;
-}
+/*We want pictures next to text in the sections.
+Put pics and crdits in one div, content in another.
+Switch Left and Right by order in the page. */
+section{
+    /*display: inline-flex;*/
+    display: block;
+    margin: auto;
+    width: 80%;
+    outline: red dotted;
 
+}
 
 section img {
     width: 100%;
+    margin: auto;
 }
 
 /*Images in the sections*/
 .piccontainer{
     width: 50%;
-    margin: 0% 5%;
+    margin: auto;
 }
 
 .circle {
@@ -45,15 +49,6 @@ section img {
     border-radius: 5%;
 }
 
-
-/*We want pictures next to text in the sections.
-Put pics and crdits in one div, content in another.
-Switch Left and Right by order in the page. */
-section{
-    /*display: inline-flex;*/
-    display: inline;
-}
-
 /*Aside stylings*/
 /*
 aside{
@@ -62,6 +57,12 @@ aside{
     width: 33%;
 }
 */
+
+aside{
+    width: 50%;
+    margin: auto;
+
+}
 
 aside div{
     border-radius: 15px;

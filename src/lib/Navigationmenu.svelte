@@ -36,7 +36,7 @@
     }
 
     /* Style navigation menu links */
-    .topNavDiv a {
+    a {
         color: black;
         padding: 14px 16px;
         text-decoration: none;
@@ -52,6 +52,10 @@
         right: 0;
         top: 0;
         font-size: xx-large;
+        
+        /*make it not look like a button*/
+        border: none;
+
     }
 
     /* Add a green background color on mouse-over */
@@ -66,12 +70,12 @@
             display: none;
         }
         /* show the links*/
-        .topNavDiv #myLinksDiv {
+        #myLinksDiv {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .topNavDiv a {
+        a {
             
             display: inline;
 
@@ -108,7 +112,7 @@
       <a href="/contact">Contact</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a id="icon" on:click={toggleMenuLinkVisibility}>
+    <button id="icon" on:click={toggleMenuLinkVisibility}>
       <i class="fa fa-bars"></i>
-    </a>
+    </button>
   </div>

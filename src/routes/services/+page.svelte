@@ -2,6 +2,11 @@
     import nursing from '../../lib/assets/nursing.jpg';
 </script>
 
+<style>
+
+</style>
+
+
 <main>
     <section>
         <div class="piccontainer">
@@ -18,30 +23,8 @@
     </section>
 
     <section>
-        <aside>
-            <div><p>Postpartum Support $35/hr</p>
-                <p>(16 hrs min.)</p>
-            </div>
-            
-            <div>
-                <p>Ways to Pay for Postpartum Doula Care</p>
-                <ul>
-                    <li>Private Pay</li>
-                    <li>HSA or FSA</li>
-                    <li>Carrot Fertility Benefits</li>
-                    <li>Company Benefits</li>
-                    <li>Gift Certificate</li>
-                </ul>
-            </div>
-            <div>
-                <p>Peaceful Nest, LLC donates 5% of all 
-                    profits to <a href="www.gatewaydoulagroup.org/unitydoulavillage">
-                        Unity Doula Village</a> and 
-                    <a href="https://communitydoulaalliance.com">Community Doula Alliance</a>. Please check 
-                        out these amazing organizations!
-                </p>
-            </div>
-        </aside>
+
+
         <div>
             <p>As a postpartum doula I can...</p> 
             <ul>
@@ -60,6 +43,31 @@
                 <li>prepare a hot pack or draw a bath</li>
             </ul>
         </div>
+
+        <aside>
+            <div><p>Postpartum Support $35/hr</p>
+                <p>(16 hrs min.)</p>
+            </div>
+            
+            <div>
+                <p>Ways to Pay for Postpartum Doula Care</p>
+                <ul>
+                    <li>Private Pay</li>
+                    <li>HSA or FSA</li>
+                    <li>Carrot Fertility Benefits</li>
+                    <li>Company Benefits</li>
+                    <li>Gift Certificate</li>
+                </ul>
+            </div>
+            <div>
+                <p>Peaceful Nest, LLC donates 5% of all 
+                    profits to <a href="https://www.gatewaydoulagroup.org/unitydoulavillage">
+                        Unity Doula Village</a> and 
+                    <a href="https://communitydoulaalliance.com">Community Doula Alliance</a>. Please check 
+                        out these amazing organizations!
+                </p>
+            </div>
+        </aside>
     </section>
 
     <section>

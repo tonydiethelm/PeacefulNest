@@ -50,15 +50,18 @@ section img {
 Put pics and crdits in one div, content in another.
 Switch Left and Right by order in the page. */
 section{
-    display: inline-flex;
+    /*display: inline-flex;*/
+    display: inline;
 }
 
 /*Aside stylings*/
+/*
 aside{
     display: block;
     float: right;
     width: 33%;
 }
+*/
 
 aside div{
     border-radius: 15px;
@@ -66,6 +69,5 @@ aside div{
     border-color: black;
     margin: 10px;
     padding: 10px;
-
 }
 

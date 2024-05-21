@@ -40,7 +40,7 @@
     </section>
 
     <section>
-        <div>
+        <div class="quote">
             <q>A postpartum doula was, we thought, out of the realm of possibility for us. 
                 We are so grateful to Aline for making it a reality. Their help and support in 
                 those early days meant showers, naps, and hot meals for both parents. Well timed 

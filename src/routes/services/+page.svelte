@@ -45,7 +45,7 @@
         </div>
 
         <aside>
-            <div><p>Postpartum Support $35/hr</p>
+            <div><p>Postpartum Support $35-45/hr sliding scale</p>
                 <p>(16 hrs min.)</p>
             </div>
             
@@ -71,7 +71,7 @@
     </section>
 
     <section>
-        <div>
+        <div class="quote">
             <q>It was so helpful to have your support and presence! I didn’t anticipate how much 
                 I’d look forward to your visits each week. I found it so helpful to have you work 
                 with our family and was impressed with how you integrated so quickly. You showed 

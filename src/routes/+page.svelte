@@ -18,7 +18,7 @@
 
 
     <section>
-        <div>
+        <div class="quote">
             <q>My favorite thing about having Aline help out was their effortless support, 
                 attention to me, my baby, and our home. It really felt like having a friend 
                 around. Aline was so knowledgeable and kind. If my only request was a nap, 

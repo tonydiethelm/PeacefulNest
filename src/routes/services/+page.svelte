@@ -33,20 +33,21 @@
                 <li>assist you with self-care recovery measures</li>
                 <li>provide information and education about baby care</li>
                 <li>assist you in caring for and feeding your new baby</li>
-                <li>offer basic lactation support</li>
+                <li>offer basic lactation education and support</li>
                 <li>assist your family with adjusting to new roles</li>
                 <li>pick up items from the pharmacy or store</li>
                 <li>offer household support such as preparing occasional light meals, 
                     sweeping, grocery shopping, laundry, tidying and dish-washing so you can nap, 
                     shower, or attend to other self-care tasks</li>
-                <li>give foot rubs  :)</li>
+                <li>give foot rubs</li>
                 <li>prepare a hot pack or draw a bath</li>
             </ul>
         </div>
 
         <aside>
-            <div><p>Postpartum Support $35-45/hr sliding scale</p>
-                <p>(16 hrs min.)</p>
+            <div>
+                <p>Postpartum Support $40-50/hr sliding scale (16 hrs min)</p>
+                <p>Bundles of 44 hours or more are $35-45/hr sliding scale</p>
             </div>
             
             <div>

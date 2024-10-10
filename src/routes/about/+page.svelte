@@ -9,8 +9,9 @@
             <ul>
                 <li>has been educating and supporting families for over 25 years</li>
                 <li>completed postpartum doula training with MotherTree Birth in 2023</li>
-                <li>is currently participating in the MotherTree Birth Business Incubator</li>
                 <li>is a DONA certified Postpartum Doula</li>
+                <li>is a Certified Lactation Educator with 52 hours of lactation and infant feeding training with Evergreen Perinatal Education and Doula Love.</li>
+                <li>completed the MotherTree Birth Business Incubator in 2024.</li>
                 <li>received a Montessori Birth-3 Diploma from the North American Montessori Center in 2014</li>
                 <li>received a Bachelor of Science, with an emphasis in Child and Family Studies from PSU in 2006</li>
                 <li>has been learning about and practicing compassionate communication skills for over 20 years</li>

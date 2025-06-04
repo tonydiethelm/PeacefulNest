@@ -1,19 +1,11 @@
-/*Created per documentation, https://kit.svelte.dev/docs/adapter-static
-attempting to create static pages for serving by nginx. 
+/*Created per documentation, https://svelte.dev/docs/kit/adapter-node
+attempting to create node application 
 */
 
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-node';
 
 export default {
 	kit: {
-		adapter: adapter({
-			// default options are shown. On some platforms
-			// these options are set automatically — see below
-			pages: 'build',
-			assets: 'build',
-			fallback: undefined,
-			precompress: false,
-			strict: true
-		})
+		adapter: adapter()
 	}
 };

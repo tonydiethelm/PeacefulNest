@@ -1,0 +1,17 @@
+#reminder! outside stuff : inside stuff
+
+services:
+  tonydiethelm:
+    image: tonydiethelm/peacefulnest
+    container_name: peacefulNestPDX
+    tty: true
+    stdin_open: true
+    restart: always
+    environment:
+      - ORIGIN=http:peacefulnestpdx.com
+      - PROTOCOL_HEADER=x-forwarded-proto
+      - HOST_HEADER=x-forwarded-host
+    ports:
+      - "3002:3000"   #Whatever Caddy is expecting!
+    #volumes:
+      #- outside stuff:inside stuff 
